@@ -1,0 +1,35 @@
+/* src/components/Home.css */
+.home-container {
+    background-image: url('https://img.freepik.com/free-photo/beautiful-overhead-view-houses-small-boats-parked-near-seashore_181624-17773.jpg?size=626&ext=jpg&ga=GA1.1.1763195083.1729175467&semt=ais_hybrid'); /* Replace with a real image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .explore-button {
+    background-color: #ffcc00; /* Button color */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: #ffc700; /* Slightly darker on hover */
+  }
+  
